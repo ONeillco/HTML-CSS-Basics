@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+
+.submit-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.submit-button {
+  background: orangered;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.img {
+  background-position: top right;
+ 
+}
+
+.img1 {
+  width: 80%;
+  height: 50%;
+}
+
+nav a.active {
+  background-color: orangered;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.wrapper {
+  word-wrap: break-word;
+}
