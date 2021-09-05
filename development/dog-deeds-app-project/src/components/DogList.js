@@ -17,7 +17,7 @@ const DogList = () => {
 
   return (
     <div>
-      <h1>Dingo Deeds</h1>
+      <h1>Deeds</h1>
       {dogDeeds}
     </div>
     
